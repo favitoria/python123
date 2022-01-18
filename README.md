@@ -1,2 +1,1 @@
-# python123
- 
+print('Olá mundo')
