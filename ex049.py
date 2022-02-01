@@ -1,0 +1,15 @@
+from time import sleep
+num = int(input('Digite um número: '))
+print('-' * 10)
+print('TA', end=' ')
+sleep(1)
+print('BU', end=' ')
+sleep(1)
+print('A', end=' ')
+sleep(1)
+print('DA')
+sleep(1)
+print('-' * 10)
+for t in range(1,11):
+    print('{} x {:2} = {}'.format(num, t, num*t))
+    print('-' * 10)
